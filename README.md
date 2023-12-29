@@ -49,3 +49,27 @@ Add the command "dev": "next dev" to the scripts section
 ```npm run dev``` (executes the created shortcut)
 
 The web server has started, but it didn't find anything and terminated.
+
+### File-Based Routing
+Next.js operates with file-based routing.
+
+Create a folder called "pages" at the root of the project, and then create a file named "index.js."
+
+In Next.js, any folder containing a JS or TS file becomes a public route.
+
+Navigating the line that separates Next.js from React.
+
+Next.js bridges the connection between the external world (routes) and what will be delivered (complete objects), which are the React components.
+
+Within the index.js file, we write the React component, which is nothing more than a normal JavaScript function, naming this function "Home."
+
+```javascript
+function Home(){
+    return <h1>Test</h1>;
+}
+
+export default Home;
+```
+
+Run `npm run dev`
+
