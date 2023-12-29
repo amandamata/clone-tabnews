@@ -31,3 +31,21 @@ Let's create a manifest file that will list the project's dependencies; this fil
 
 ```npm install react@18.2.0```
 ```npm install react-dom@18.2.0```
+
+
+### Protocols
+HTTP - Hypertext Transfer Protocol
+FTP - File Transfer Protocol
+SMTP - Simple Mail Transfer Protocol
+...
+
+A protocol is an agreement, a combination, a standard set of rules.
+
+Setting up a web server
+Using the "next dev" dependency
+Access package.json
+Add the command "dev": "next dev" to the scripts section
+
+```npm run dev``` (executes the created shortcut)
+
+The web server has started, but it didn't find anything and terminated.
